@@ -1,0 +1,8 @@
+.backgr{
+    background-image: url('matos.jpg');
+    height:100%;
+    width: 100%;
+    background-size:cover;
+    position:relative;
+    background-attachment: fixed;
+}
