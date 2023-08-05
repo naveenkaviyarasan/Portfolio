@@ -1,0 +1,41 @@
+.home {
+  background-image: url('https://i.pinimg.com/originals/93/c6/aa/93c6aaa4424c468db1c9f7904eb400d8.gif');
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+@keyframes Home {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-text {
+  animation: Home 10s infinite;
+}
+
+.hero-text {
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.load{
+  margin-top: 19rem;
+}
+
+
